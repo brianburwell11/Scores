@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# Get list of staged .mscz files
+staged_files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.mscz$' || true)
+
+# Exit if no .mscz files are staged
+if [ -z "$staged_files" ]; then
+    exit 0
+fi
+
+# Get the directory of the pre-commit hook
+HOOK_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+EXPORT_SCRIPT="$HOOK_DIR/export-to-pdf.sh"
+
+# Check if export script exists and is executable
+if [ ! -x "$EXPORT_SCRIPT" ]; then
+    echo "Error: $EXPORT_SCRIPT not found or not executable"
+    exit 1
+fi
+
+# Source the .env file to get MSCORE_PATH
+if [ -f "$HOOK_DIR/.env" ]; then
+    source "$HOOK_DIR/.env"
+    export MSCORE_PATH
+else
+    echo "Error: .env file not found in $HOOK_DIR"
+    exit 1
+fi
+
+# Verify MSCORE_PATH is set and valid
+if [ -z "$MSCORE_PATH" ]; then
+    echo "Error: MSCORE_PATH not set in .env file"
+    exit 1
+fi
+
+if [ ! -f "$MSCORE_PATH" ]; then
+    echo "Error: MuseScore executable not found at $MSCORE_PATH"
+    exit 1
+fi
+
+# Process each staged .mscz file
+echo "Generating PDFs for staged MuseScore files..."
+while IFS= read -r file; do
+    echo "Processing file: $file"
+    # Create pdf directory if it doesn't exist
+    pdf_dir="$(dirname "$file")/pdf"
+    mkdir -p "$pdf_dir"
+    
+    # Generate output path
+    filename=$(basename -- "$file")
+    pdf_path="$pdf_dir/${filename%.*}.pdf"
+    
+    # Run export script
+    "$EXPORT_SCRIPT" -o "$pdf_path" "$file"
+    
+    # Add the generated PDF to git staging
+    git add "$pdf_path"
+done <<< "$(git diff --cached --name-only --diff-filter=ACM | grep '\.mscz$' || true)"
+
+exit 0
