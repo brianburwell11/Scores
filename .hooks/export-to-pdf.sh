@@ -57,15 +57,24 @@ if ! printf '%s\n' "$MSCORE_VERSION" "4.0.0" | sort -V | head -n1 | grep -q "^4\
     exit 1
 fi
 
-# Generate PDF of score and parts
-"$MSCORE_PATH" "$INPUT_FILE" -o "$OUTPUT_PDF" --export-score-parts 2>/dev/null
+# Count number of "instrumentId" occurrences, which appears exactly once per part
+PART_COUNT=$(echo "$METADATA" | grep -o '"instrumentId":' | wc -l)
+
+# Generate PDF of score and parts (if there is more than one part)
+if [ "$PART_COUNT" -gt 1 ]; then
+    "$MSCORE_PATH" "$INPUT_FILE" -o "$OUTPUT_PDF" --export-score-parts 2>/dev/null
+else
+    "$MSCORE_PATH" "$INPUT_FILE" -o "$OUTPUT_PDF" 2>/dev/null
+    echo "------ Exported to ${OUTPUT_PDF}"
+    exit 0
+fi
 
 # Get the number of pages in the score from metadata
 PAGES=$(echo "$METADATA" | grep -o '"pages":[[:space:]]*[0-9]*' | grep -o '[0-9]*')
 
 # Reorder the pages in the PDF so the parts come before the score
 if command -v qpdf >/dev/null 2>&1; then
-    echo "Reordering pages in ${OUTPUT_PDF}"
+    echo "--- Reordering pages in ${OUTPUT_PDF}"
     TEMP_PDF=$(mktemp)
     qpdf --empty --pages "$OUTPUT_PDF" $(($PAGES+1))-z "$OUTPUT_PDF" 1-$PAGES -- "$TEMP_PDF"
     mv "$TEMP_PDF" "$OUTPUT_PDF"
@@ -73,4 +82,4 @@ else
     echo "Warning: qpdf is not installed. The PDF parts will appear after the score."
 fi
 
-echo "Exported to ${OUTPUT_PDF}"
+echo "------ Exported to ${OUTPUT_PDF}"
