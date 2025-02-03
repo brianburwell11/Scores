@@ -10,10 +10,10 @@ git clone git@github.com:brianburwell11/scores.git
 Install the BebasNeue font to your machine
 
 _Install pre-commit hooks (optional)_
-1. Modify the path in `githooks/.env` to the path of the MuseScore
+1. Modify the path in `hooks/.env` to the path of the MuseScore
    executable on your machine.
 2. ```bash
-    chmod +x githooks/setup-hooks.sh
-    ./githooks/setup-hooks.sh
+    chmod +x hooks/setup-hooks.sh
+    ./hooks/setup-hooks.sh
     ```
 
