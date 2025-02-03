@@ -41,6 +41,22 @@ if [ -z "$MSCORE_PATH" ]; then
     exit 1
 fi
 
+
+# Generate PDF of score and parts
 "$MSCORE_PATH" "$INPUT_FILE" -o "$OUTPUT_PDF" --export-score-parts 2>/dev/null
+
+# Get score metadata and find out how many pages the score is
+METADATA=$("$MSCORE_PATH" "$INPUT_FILE" --score-meta 2>/dev/null)
+PAGES=$(echo "$METADATA" | grep -o '"pages":[[:space:]]*[0-9]*' | grep -o '[0-9]*')
+
+# Reorder the pages in the PDF so the parts come before the score
+if command -v qpdf >/dev/null 2>&1; then
+    echo "Reordering pages in ${OUTPUT_PDF}"
+    TEMP_PDF=$(mktemp)
+    qpdf --empty --pages "$OUTPUT_PDF" $(($PAGES+1))-z "$OUTPUT_PDF" 1-$PAGES -- "$TEMP_PDF"
+    mv "$TEMP_PDF" "$OUTPUT_PDF"
+else
+    echo "Warning: qpdf is not installed. The PDF parts will appear after the score."
+fi
 
 echo "Exported to ${OUTPUT_PDF}"
