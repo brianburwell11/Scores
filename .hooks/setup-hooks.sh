@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cp hooks/* .git/hooks/
-cp hooks/.env .git/hooks/
+cp .hooks/* .git/hooks/
+cp .hooks/.env .git/hooks/
 chmod +x .git/hooks/*
 
 # Install qpdf if it's not installed
