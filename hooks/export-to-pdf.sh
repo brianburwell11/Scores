@@ -41,12 +41,26 @@ if [ -z "$MSCORE_PATH" ]; then
     exit 1
 fi
 
+# Get score metadata
+METADATA=$("$MSCORE_PATH" "$INPUT_FILE" --score-meta 2>/dev/null)
+
+# Check MuseScore version
+MSCORE_VERSION=$(echo "$METADATA" | grep -o '"mscoreVersion":[[:space:]]*"[^"]*"' | grep -o '[0-9][0-9.]*')
+if [ -z "$MSCORE_VERSION" ]; then
+    echo "Error: Could not determine MuseScore version from metadata"
+    exit 1
+fi
+
+# Compare version with 4.0.0
+if ! printf '%s\n' "$MSCORE_VERSION" "4.0.0" | sort -V | head -n1 | grep -q "^4\."; then
+    echo "Error: This script requires that the score was created with MuseScore version 4.0.0 or greater (found version $MSCORE_VERSION)"
+    exit 1
+fi
 
 # Generate PDF of score and parts
 "$MSCORE_PATH" "$INPUT_FILE" -o "$OUTPUT_PDF" --export-score-parts 2>/dev/null
 
-# Get score metadata and find out how many pages the score is
-METADATA=$("$MSCORE_PATH" "$INPUT_FILE" --score-meta 2>/dev/null)
+# Get the number of pages in the score from metadata
 PAGES=$(echo "$METADATA" | grep -o '"pages":[[:space:]]*[0-9]*' | grep -o '[0-9]*')
 
 # Reorder the pages in the PDF so the parts come before the score
