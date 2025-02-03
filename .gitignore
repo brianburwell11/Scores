@@ -1,2 +1,3 @@
 **/.mscbackup/
 .DS_Store
+githooks/.env
