@@ -5,7 +5,7 @@
 | Song Name              | Recording | Transcribe! | Skeleton | Arrangement | Parts |
 |-----------------------|-----------|------------|----------|-------------|-------|
 | [Fever Dream](https://open.spotify.com/track/1orFSqPEGF5LrnP3PcKRGD?si=ea2b0f0007ec419d)           | ✓        | ✓          | ✓        | x           | [✓](./joe%20marcinek%20band/fever%20dream/Fever%20Dream%20-%20Joe%20Marcinek%20Band.pdf)      |
-| [Franklin's Tower](https://open.spotify.com/track/3PgIhd4XmwtmV2XGU5qhzZ?si=ec0c3aac23114409)      |           |            |          |             |       |
+| [Franklin's Tower](https://open.spotify.com/track/3PgIhd4XmwtmV2XGU5qhzZ?si=ec0c3aac23114409)      | ✓         | ✓          | ✓        |             |       |
 | [Furry Teddy Bear](https://open.spotify.com/track/4ATfpfAcQYzhF0Nu8Tmyhz?si=7c718132c1d742e4)      | ✓         |            |          |             |       |
 | [George Washington](https://open.spotify.com/track/0Hz1ZDCYv8l74c3McEK2wR?si=e23782b5b56d4a67)     | ✓         |            |          |             |       |
 | [Mothership Connection](https://open.spotify.com/track/7rLAPi81R7qlVqgXfykdEL?si=694ec118393e4404) | ✓         | x          | x         | [found](https://musescore.com/user/39593079/scores/19210966)       | [✓](./joe%20marcinek%20band/mothership%20connection/Mothership%20Connection%20-%20Parliament.pdf)      |
