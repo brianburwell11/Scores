@@ -4,7 +4,7 @@
 
 Clone this repository
 ```bash
-git clone git@github.com:brianburwell11/scores.git
+git clone git@github.com:brianburwell11/Scores.git
 ```
 
 Install the BebasNeue font to your machine
