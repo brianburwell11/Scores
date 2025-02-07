@@ -19,5 +19,5 @@
 
 | Song Name              | Recording | Transcribe! | Skeleton | Arrangement | Parts |
 |-----------------------|-----------|------------|----------|-------------|-------|
-| [Blinding Lights](https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b?si=c87fd50f107346d2)       | ✓         | ✓          |          |             |       |
+| [Blinding Lights](https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b?si=c87fd50f107346d2)       | ✓         | ✓          | ✓        |             |       |
 | [Friction](https://open.spotify.com/track/1FZwzKrwlBgIl4ARmQarGr?si=8cb3aea5c03f4128)              | ✓         | ✓          | ✓        |             |       |
