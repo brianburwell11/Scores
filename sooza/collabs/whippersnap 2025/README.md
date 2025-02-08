@@ -21,3 +21,10 @@
 |-----------------------|-----------|------------|----------|-------------|-------|
 | [Blinding Lights](https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b?si=c87fd50f107346d2)       | ✓         | ✓          | ✓        | ✓          | [✓](./displace/blinding%20lights/pdf/Blinding%20Lights%20-%20The%20Weeknd.pdf)      |
 | [Friction](https://open.spotify.com/track/1FZwzKrwlBgIl4ARmQarGr?si=8cb3aea5c03f4128)              | ✓         | ✓          | ✓        | ✓          | [✓](./displace/friction/pdf/Friction%20-%20Displace.pdf)     |
+
+
+# MiniM
+
+| Song Name              | Recording | Transcribe! | Skeleton | Arrangement | Parts |
+|-----------------------|-----------|------------|----------|-------------|-------|
+| [Groove is in the Heart](https://open.spotify.com/track/71u5bfT32y47A3c7t11QTL?si=0754018038894fce) | ✓ | ✓ | ✓ | |
