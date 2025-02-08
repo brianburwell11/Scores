@@ -27,4 +27,4 @@
 
 | Song Name              | Recording | Transcribe! | Skeleton | Arrangement | Parts |
 |-----------------------|-----------|------------|----------|-------------|-------|
-| [Groove is in the Heart](https://open.spotify.com/track/71u5bfT32y47A3c7t11QTL?si=0754018038894fce) | ✓ | ✓ | ✓ | |
+| [Groove is in the Heart](https://open.spotify.com/track/71u5bfT32y47A3c7t11QTL?si=0754018038894fce) | ✓ | ✓ | ✓ | [✓](./minim/groove%20is%20in%20the%20heart/pdf/Groove%20is%20in%20the%20Heart%20-%20Blues%20Traveler.pdf) |

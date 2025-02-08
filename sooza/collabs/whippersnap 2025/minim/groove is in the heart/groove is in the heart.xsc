@@ -2,7 +2,7 @@ Transcribe! for Macintosh document. Version 6089.00
 Transcribe!,Macintosh OS-X,9,30,7,S,2
 
 SectionStart,Main
-SaveDate,2025-02-08 16:41
+SaveDate,2025-02-08 17:18
 WindowSize,1941|-193|1716|820,0
 ViewList,1,0,0.00000000
 SoundFileName,groove is in the heart.mp3,MacOSX,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/minim/groove is in the heart/groove is in the heart.mp3
@@ -23,7 +23,7 @@ FX_Mix,0,0,100,0
 FX_Tuning,1,1,0,0,0,0,60,50,0
 FX_Transposition,1,1,0,0,0
 FX_EQ,1,0,0,0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
-FX_Speed,1,0,100000,0
+FX_Speed,1,0,97000,0
 FX_Misc,1,0,50,0,80,0
 ShowTextZone,0
 ShowPianoRoll,0
@@ -40,8 +40,8 @@ TVVVideoVFlip,0
 ShowNavbar,0
 NavBarMeasures,1
 NavBarMeasuresMenu,1
-ShowSpectrum,0
-ShowGuessNotes,0
+ShowSpectrum,1
+ShowGuessNotes,1
 ShowGuessChords,0
 ShowAsMono,0
 ShowDB,0
@@ -61,10 +61,10 @@ TextZoneSplitterPos,0.250000
 PianoRollSplitterPos,0.500000
 ViewSplitterPos,0.700000
 VertProfileZoom,1.000000
-HorizProfileZoom,1.000000
-HorizProfilePos,23307
-SelectionLeft,7778017,0:02:56.372263
-SelectionRight,7778017,0:02:56.372263
+HorizProfileZoom,0.707107
+HorizProfilePos,15555
+SelectionLeft,7244111,0:02:44.265550
+SelectionRight,7244111,0:02:44.265550
 SectionEnd,View0
 
 SectionStart,Markers
