@@ -2,10 +2,10 @@ Transcribe! for Macintosh document. Version 6089.00
 Transcribe!,Macintosh OS-X,9,30,7,S,2
 
 SectionStart,Main
-SaveDate,2025-01-28 11:07
-WindowSize,61|33|1716|820,0
+SaveDate,2025-02-08 14:04
+WindowSize,1920|-284|1716|820,0
 ViewList,1,0,0.00000000
-SoundFileName,friction.mp3,MacOSX,/Users/brianburwell/Documents/SOOZA/whippersnap-2025/displace/friction/friction.mp3
+SoundFileName,friction.mp3,MacOSX,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/displace/friction/friction.mp3
 SoundFileInfo,MP3 (MPEG audio layer 3),MP3 (MPEG-1 Layer III\C Variable Bitrate),2,7152418,44100,12935808,293.32897959
 SubtitleFileName,,MacOSX,/Applications/
 SubtitleFontSize,15
@@ -20,10 +20,10 @@ SectionEnd,Main
 
 SectionStart,View0
 FX_Mix,0,0,100,0
-FX_Tuning,1,1,0,0,0,0,60,50,0
+FX_Tuning,1,0,0,0,0,0,60,50,0
 FX_Transposition,1,1,0,0,0
 FX_EQ,1,0,0,0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0:0
-FX_Speed,1,0,100000,0
+FX_Speed,1,0,95000,0
 FX_Misc,1,0,50,0,80,0
 ShowTextZone,0
 ShowPianoRoll,0
@@ -40,9 +40,9 @@ TVVVideoVFlip,0
 ShowNavbar,0
 NavBarMeasures,1
 NavBarMeasuresMenu,1
-ShowSpectrum,0
-ShowGuessNotes,0
-ShowGuessChords,0
+ShowSpectrum,1
+ShowGuessNotes,1
+ShowGuessChords,1
 ShowAsMono,0
 ShowDB,0
 ShowTimeLine,0
@@ -59,12 +59,12 @@ PianoRollBtmNote,24
 PianoRollTopNote,96
 TextZoneSplitterPos,0.250000
 PianoRollSplitterPos,0.500000
-ViewSplitterPos,0.700000
+ViewSplitterPos,0.698452
 VertProfileZoom,1.000000
-HorizProfileZoom,1.000000
-HorizProfilePos,38474
-SelectionLeft,2327965,0:00:52.788321
-SelectionRight,2327965,0:00:52.788321
+HorizProfileZoom,0.353553
+HorizProfilePos,6718
+SelectionLeft,7141684,0:02:41.942937
+SelectionRight,7141684,0:02:41.942937
 SectionEnd,View0
 
 SectionStart,Markers
@@ -253,35 +253,35 @@ M,-1,1,p5,0,0:01:52.102562
 B,-1,1,,0,0:01:52.709297
 B,-1,1,,0,0:01:53.339841
 B,-1,1,,0,0:01:53.993991
-S,-1,0,chorus 3 (double chorus),0,0:01:54.599705
+S,-1,0,CHORUS 2,0,0:01:54.599705
 B,-1,1,,0,0:01:55.252880
 B,-1,1,,0,0:01:55.860590
 B,-1,1,,0,0:01:56.467528
-M,-1,1,c2,0,0:01:57.099864
+M,-1,1,C2,0,0:01:57.099864
 B,-1,1,,0,0:01:57.727800
 B,-1,1,,0,0:01:58.382562
 B,-1,1,,0,0:01:59.009887
-M,-1,1,c3,0,0:01:59.595011
+M,-1,1,C3,0,0:01:59.595011
 B,-1,1,,0,0:02:00.203719
 B,-1,1,,0,0:02:00.858503
 B,-1,1,,0,0:02:01.484422
-M,-1,1,c4,0,0:02:02.048707
+M,-1,1,C4,0,0:02:02.048707
 B,-1,1,,0,0:02:02.722086
 B,-1,1,,0,0:02:03.329410
 B,-1,1,,0,0:02:03.941134
-M,-1,1,c5,0,0:02:04.544853
+M,-1,1,C5,0,0:02:04.544853
 B,-1,1,,0,0:02:05.197234
 B,-1,1,,0,0:02:05.785125
 B,-1,1,,0,0:02:06.413061
-M,-1,1,c6,0,0:02:07.019773
+M,-1,1,C6,0,0:02:07.019773
 B,-1,1,,0,0:02:07.629705
 B,-1,1,,0,0:02:08.279274
 B,-1,1,,0,0:02:08.866372
-M,-1,1,c7,0,0:02:09.475692
+M,-1,1,C7,0,0:02:09.475692
 B,-1,1,,0,0:02:10.103039
 B,-1,1,,0,0:02:10.731973
 B,-1,1,,0,0:02:11.344308
-M,-1,1,c8,0,0:02:11.924807
+M,-1,1,C8,0,0:02:11.924807
 B,-1,1,,0,0:02:12.581565
 B,-1,1,,0,0:02:13.207891
 B,-1,1,,0,0:02:13.818231
@@ -289,31 +289,31 @@ M,-1,0,DOUBLE BAR,0,0:02:14.494603
 B,-1,1,,0,0:02:15.097324
 B,-1,1,,0,0:02:15.706644
 B,-1,1,,0,0:02:16.314966
-M,-1,1,c10,0,0:02:16.921701
+M,-1,1,C10,0,0:02:16.921701
 B,-1,1,,0,0:02:17.527415
 B,-1,1,,0,0:02:18.158957
 B,-1,1,,0,0:02:18.790295
-M,-1,1,c11,0,0:02:19.373787
+M,-1,1,C11,0,0:02:19.373787
 B,-1,1,,0,0:02:19.979116
 B,-1,1,,0,0:02:20.632290
 B,-1,1,,0,0:02:21.240612
-M,-1,1,c12,0,0:02:21.847324
+M,-1,1,C12,0,0:02:21.847324
 B,-1,1,,0,0:02:22.479274
 B,-1,1,,0,0:02:23.086599
 B,-1,1,,0,0:02:23.693311
-M,-1,1,c13,0,0:02:24.324853
+M,-1,1,C13,0,0:02:24.324853
 B,-1,1,,0,0:02:24.929592
 B,-1,1,,0,0:02:25.560907
 B,-1,1,,0,0:02:26.173243
-M,-1,1,c14,0,0:02:26.820408
+M,-1,1,C14,0,0:02:26.820408
 B,-1,1,,0,0:02:27.473560
 B,-1,1,,0,0:02:28.043447
 B,-1,1,,0,0:02:28.645170
-M,-1,1,c15,0,0:02:29.257506
+M,-1,1,C15,0,0:02:29.257506
 B,-1,1,,0,0:02:29.858821
 B,-1,1,,0,0:02:30.536599
 B,-1,1,,0,0:02:31.125714
-M,-1,1,c16,0,0:02:31.750658
+M,-1,1,C16,0,0:02:31.750658
 B,-1,1,,0,0:02:32.382585
 B,-1,1,,0,0:02:32.987914
 B,-1,1,,0,0:02:33.575397
@@ -574,5 +574,5 @@ SectionEnd,Loops
 
 SectionStart,SeparateStemFiles
 ShowStemSelector,0
-StemFile,friction.mp3,Stem 1,/Users/brianburwell/Documents/SOOZA/whippersnap-2025/displace/friction/friction.mp3
+StemFile,friction.mp3,Stem 1,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/displace/friction/friction.mp3
 SectionEnd,SeparateStemFiles
