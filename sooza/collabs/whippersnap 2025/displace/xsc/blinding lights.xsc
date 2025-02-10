@@ -2,10 +2,10 @@ Transcribe! for Macintosh document. Version 6089.00
 Transcribe!,Macintosh OS-X,9,30,7,S,2
 
 SectionStart,Main
-SaveDate,2025-02-06 20:13
-WindowSize,71|33|1716|969,0
+SaveDate,2025-02-10 12:23
+WindowSize,433|127|1716|969,0
 ViewList,1,0,0.00000000
-SoundFileName,blinding lights.mp3,MacOSX,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/displace/blinding lights/blinding lights.mp3
+SoundFileName,blinding lights.mp3,MacOSX,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/displace/mp3/blinding lights.mp3
 SoundFileInfo,MP3 (MPEG audio layer 3),MP3 (MPEG-1 Layer III\C Variable Bitrate),2,4615905,44100,8838144,200.41142857
 SubtitleFileName,,MacOSX,/Applications/
 SubtitleFontSize,15
@@ -59,7 +59,7 @@ PianoRollBtmNote,24
 PianoRollTopNote,96
 TextZoneSplitterPos,0.250000
 PianoRollSplitterPos,0.500000
-ViewSplitterPos,0.698889
+ViewSplitterPos,0.700438
 VertProfileZoom,1.000000
 HorizProfileZoom,1.000000
 HorizProfilePos,21868
@@ -632,5 +632,5 @@ SectionEnd,Loops
 
 SectionStart,SeparateStemFiles
 ShowStemSelector,0
-StemFile,blinding lights.mp3,Stem 1,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/displace/blinding lights/blinding lights.mp3
+StemFile,blinding lights.mp3,Stem 1,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/displace/mp3/blinding lights.mp3
 SectionEnd,SeparateStemFiles

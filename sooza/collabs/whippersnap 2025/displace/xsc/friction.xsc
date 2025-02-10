@@ -2,10 +2,10 @@ Transcribe! for Macintosh document. Version 6089.00
 Transcribe!,Macintosh OS-X,9,30,7,S,2
 
 SectionStart,Main
-SaveDate,2025-02-08 14:04
-WindowSize,1920|-284|1716|820,0
+SaveDate,2025-02-10 12:21
+WindowSize,433|127|1716|820,0
 ViewList,1,0,0.00000000
-SoundFileName,friction.mp3,MacOSX,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/displace/friction/friction.mp3
+SoundFileName,friction.mp3,MacOSX,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/displace/mp3/friction.mp3
 SoundFileInfo,MP3 (MPEG audio layer 3),MP3 (MPEG-1 Layer III\C Variable Bitrate),2,7152418,44100,12935808,293.32897959
 SubtitleFileName,,MacOSX,/Applications/
 SubtitleFontSize,15
@@ -574,5 +574,5 @@ SectionEnd,Loops
 
 SectionStart,SeparateStemFiles
 ShowStemSelector,0
-StemFile,friction.mp3,Stem 1,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/displace/friction/friction.mp3
+StemFile,friction.mp3,Stem 1,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/displace/mp3/friction.mp3
 SectionEnd,SeparateStemFiles

@@ -2,10 +2,10 @@ Transcribe! for Macintosh document. Version 6089.00
 Transcribe!,Macintosh OS-X,9,30,7,S,2
 
 SectionStart,Main
-SaveDate,2025-02-06 17:21
+SaveDate,2025-02-10 12:25
 WindowSize,1920|-264|1716|1125,1
 ViewList,1,0,0.00000000
-SoundFileName,shakedown street.mp3,MacOSX,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/joe marcinek band/shakedown street/shakedown street.mp3
+SoundFileName,shakedown street.mp3,MacOSX,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/joe marcinek band/mp3/shakedown street.mp3
 SoundFileInfo,MP3 (MPEG audio layer 3),MP3 (MPEG-1 Layer III\C Variable Bitrate),2,6925874,44100,12684672,287.63428571
 SubtitleFileName,,MacOSX,/Applications/
 SubtitleFontSize,15
@@ -59,7 +59,7 @@ PianoRollBtmNote,24
 PianoRollTopNote,96
 TextZoneSplitterPos,0.250000
 PianoRollSplitterPos,0.500000
-ViewSplitterPos,0.700000
+ViewSplitterPos,0.698889
 VertProfileZoom,1.000000
 HorizProfileZoom,0.594604
 HorizProfilePos,21433
@@ -614,5 +614,5 @@ SectionEnd,Loops
 
 SectionStart,SeparateStemFiles
 ShowStemSelector,0
-StemFile,shakedown street.mp3,Stem 1,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/joe marcinek band/shakedown street/shakedown street.mp3
+StemFile,shakedown street.mp3,Stem 1,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/joe marcinek band/mp3/shakedown street.mp3
 SectionEnd,SeparateStemFiles

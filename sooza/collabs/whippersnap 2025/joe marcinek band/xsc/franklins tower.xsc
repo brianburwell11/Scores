@@ -2,10 +2,10 @@ Transcribe! for Macintosh document. Version 6089.00
 Transcribe!,Macintosh OS-X,9,30,7,S,2
 
 SectionStart,Main
-SaveDate,2025-02-05 16:42
-WindowSize,1920|-264|1716|1125,0
+SaveDate,2025-02-10 12:25
+WindowSize,0|25|1716|1125,0
 ViewList,1,0,0.00000000
-SoundFileName,franklins tower.mp3,MacOSX,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/joe marcinek band/franklins tower/franklins tower.mp3
+SoundFileName,franklins tower.mp3,MacOSX,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/joe marcinek band/mp3/franklins tower.mp3
 SoundFileInfo,MP3 (MPEG audio layer 3),MP3 (MPEG-1 Layer III\C Variable Bitrate),2,6064501,44100,11582208,262.63510204
 SubtitleFileName,,MacOSX,/Applications/
 SubtitleFontSize,15
@@ -59,7 +59,7 @@ PianoRollBtmNote,24
 PianoRollTopNote,96
 TextZoneSplitterPos,0.250000
 PianoRollSplitterPos,0.500000
-ViewSplitterPos,0.702666
+ViewSplitterPos,0.703783
 VertProfileZoom,1.000000
 HorizProfileZoom,0.420448
 HorizProfilePos,13262
@@ -362,5 +362,5 @@ SectionEnd,Loops
 
 SectionStart,SeparateStemFiles
 ShowStemSelector,0
-StemFile,franklins tower.mp3,Stem 1,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/joe marcinek band/franklins tower/franklins tower.mp3
+StemFile,franklins tower.mp3,Stem 1,/Users/brianburwell/Documents/MuseScore4/Scores/sooza/collabs/whippersnap 2025/joe marcinek band/mp3/franklins tower.mp3
 SectionEnd,SeparateStemFiles
